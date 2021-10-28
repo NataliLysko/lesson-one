@@ -5,61 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/stayles.css">
 </head>
 <body>
 
     <!-- Header WebSite -->
 
-    <header>
-        <a href="/">Web Studio</a>
+    <header class="top">
+        <a class="top-logo" href=""> <span class="top-logo-web">Web</span>  Studio</a>
         <nav>
-            <ul>
-                <li> <a href="./index.html">Студия</a> </li>
-                <li> <a href="./portfolio.html">Портфолио</a> </li>
-                <li> <a href="">Контакты</a> </li>
+            <ul class="top-list">
+                <li> <a class="top-link" href="./index.html">Студия</a> </li>
+                <li> <a class="top-link" href="./portfolio.html">Портфолио</a> </li>
+                <li> <a class="top-link" href="">Контакты</a> </li>
             </ul>
         </nav>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 099 111 11 11</a>
+            <a class="top-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="top-contacts" href="tel:+380961111111">+38 099 111 11 11</a>
     </header>
 
     <main>
 
         <!-- BigBoard -->
 
-        <section>
-            <h1>Эффективные решения <br> для вашего бизнеса</h1>
-            <button type="button"> Заказать услугу</button> 
+        <section class="bigboard">
+            <h1 class="bigboard-name">Эффективные решения <br> для вашего бизнеса</h1>
+            <button class="bigboard-button" type="button"> Заказать услугу</button> 
         </section>
 
         <!-- What are we doing -->
 
-        <section>
+        <section class="plus">
             <h2>Особенности</h2>
             <ul>
                 <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="plus-title">Внимание к деталям</h3>
+                    <p class="plus-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="plus-title">Пунктуальность</h3>
+                    <p class="plus-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="plus-title">Планирование</h3>
+                    <p class="plus-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="plus-title">Современные технологии</h3>
+                    <p class="plus-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
 
         <!-- Types of work -->
 
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="work">
+            <h2 class="work-title">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <a href=""><img src="./img/box-1.jpg" width="370" alt="Предоставляем разработку веб-сервисов и порталов"></a>
@@ -78,28 +81,28 @@
 
         <!-- Team -->
 
-        <section>
-            <h2>Наша команда</h2>
+        <section class="team">
+            <h2 class="team-title">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./img/img.jpg" width="270" alt="Игорь Демьяненко Product Designer">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="team-name">Игорь Демьяненко</h3>
+                    <p class="team-position">Product Designer</p>
                 </li>
                 <li>
                     <img src="./img/img(1).jpg" width="270" alt="Ольга Репина Frontend Developer">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="team-name">Ольга Репина</h3>
+                    <p class="team-position">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./img/img(2).jpg" width="270" alt="Николай Тарасов Marketing">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="team-name">Николай Тарасов</h3>
+                    <p class="team-position">Marketing</p>
                 </li>
                 <li>
                     <img src="./img/img(3).jpg" width="270" alt="Михаил Ермаков UI Designer">
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <h3 class="team-name">Михаил Ермаков</h3>
+                    <p class="team-position">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -108,12 +111,12 @@
 
     <!-- Footer -->
 
-    <footer>
-        <a href="/">Web Studio</a>
-        <address>
+    <footer class="under">
+        <a class="under-logo" href="/"> <span class="under-logo-web">Web</span>  Studio</a>
+        <address class="under-address">
             г. Киев, пр-т Леси Украинки, 26
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 099 111 11 11</a>
+            <a class="under-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="under-contacts" href="tel:+380961111111">+38 099 111 11 11</a>
         </address>
     </footer>
 </body>

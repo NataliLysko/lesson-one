@@ -1,0 +1,194 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --logo-text-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-bgd-color: #2f303a;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* Header WebSite */
+
+.top-logo {
+  color: var(--logo-text-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.top-logo-web {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.top-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.top-contacts {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.top-link:hover,
+.top-contacts:hover,
+.top-link:focus,
+.top-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* BigBoard */
+
+.bigboard {
+  background-color: var(--primary-bgd-color);
+}
+
+.bigboard-name {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.bigboard-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* What are we doing */
+
+.plus-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  line-height: 16px;
+}
+
+.plus-text {
+  line-height: 24px;
+}
+
+/* Types of work */
+
+.work-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/* Team */
+
+.team-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.team-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+/* Footer */
+
+.under {
+  background-color: var(--primary-bgd-color);
+}
+
+.under-logo {
+  color: var(--primary-white-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.under-logo-web {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.under-address {
+  color: var(--primary-white-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.under-contacts {
+  color: var(--footer-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Secondary page */
+
+/* Portfolio */
+
+.navigation-button {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.navigation-button:hover,
+.navigation-button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.portfolio-site {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.portfolio-site-type {
+  color: var(--primary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}

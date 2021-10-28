@@ -6,41 +6,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/stayles.css">
 </head>
 
 <body>
 
     <!-- Header WebSite -->
 
-    <header>
-        <a href="/">Web Studio</a>
+    <header class="top">
+        <a class="top-logo" href=""> <span class="top-logo-web">Web</span> Studio</a>
         <nav>
-            <ul>
-                <li> <a href="./index.html">Студия</a> </li>
-                <li> <a href="./portfolio.html">Портфолио</a> </li>
-                <li> <a href="">Контакты</a> </li>
+            <ul class="top-list">
+                <li> <a class="top-link" href="./index.html">Студия</a> </li>
+                <li> <a class="top-link" href="./portfolio.html">Портфолио</a> </li>
+                <li> <a class="top-link" href="">Контакты</a> </li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 099 111 11 11</a>
+        <a class="top-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="top-contacts" href="tel:+380961111111">+38 099 111 11 11</a>
     </header>
 
     <main>
+        <!-- Portfolio -->
+        <section>
 
-        <!-- BigBoard -->
+            <ul class="navigation">
+                <li>
+                    <button class="navigation-button" type="button">Все</button>
+                </li>
+                <li>
+                    <button class="navigation-button" type="button">Веб-сайты</button>
+                </li>
+                <li>
+                    <button class="navigation-button" type="button">Приложения</button>
+                </li>
+                <li>
+                    <button class="navigation-button" type="button">Дизайн</button>
+                </li>
+                <li>
+                    <button class="navigation-button" type="button">Маркетинг</button>
+                </li>
+            </ul>
 
+            <ul class="portfolio">
+                <li>
+                    <a href="">
+                        <img src="./img/technokryak.jpg" width="370" alt="Технокряк">
+                        <h3 class="portfolio-site">Технокряк</h3>
+                        <p class="portfolio-site-type">Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/new-orlean.jpg" width="370" alt="Постер New Orlean vs Golden Star">
+                        <h3 class="portfolio-site">Постер New Orlean vs Golden Star</h3>
+                        <p class="portfolio-site-type">Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/seafood.jpg" width="370" alt="Ресторан Seafood">
+                        <h3 class="portfolio-site">Ресторан Seafood</h3>
+                        <p class="portfolio-site-type">Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/prime.jpg" width="370" alt="Проект Prime">
+                        <h3 class="portfolio-site">Проект Prime</h3>
+                        <p class="portfolio-site-type">Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/boxes.jpg" width="370" alt="Проект Boxes">
+                        <h3 class="portfolio-site">Проект Boxes</h3>
+                        <p class="portfolio-site-type">Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/inspiration.jpg" width="370" alt="Inspiration has no Borders">
+                        <h3 class="portfolio-site">Inspiration has no Borders</h3>
+                        <p class="portfolio-site-type">Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/limited-edition.jpg" width="370" alt="Издание Limited Edition">
+                        <h3 class="portfolio-site">Издание Limited Edition</h3>
+                        <p class="portfolio-site-type">Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/lab.jpg" width="" alt="Проект LAB">
+                        <h3 class="portfolio-site">Проект LAB</h3>
+                        <p class="portfolio-site-type">Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/growing-business.jpg" width="" alt="Growing Business">
+                        <h3 class="portfolio-site">Growing Business</h3>
+                        <p class="portfolio-site-type">Приложение</p>
+                    </a>
+                </li>
+            </ul>
 
-
+        </section>
     </main>
 
     <!-- Footer -->
 
-    <footer>
-        <a href="/">Web Studio</a>
-        <address>
+    <footer class="under">
+        <a class="under-logo" href="/"> <span class="under-logo-web">Web</span> Studio</a>
+        <address class="under-address">
             г. Киев, пр-т Леси Украинки, 26
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 099 111 11 11</a>
+            <a class="under-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="under-contacts" href="tel:+380961111111">+38 099 111 11 11</a>
         </address>
     </footer>
 </body>
