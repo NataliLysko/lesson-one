@@ -7,7 +7,18 @@
   --primary-white-color: #ffffff;
   --primary-bgd-color: #2f303a;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* утилиты */
+
 body {
+  margin: 0;
+
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: "Roboto", sans-serif;
@@ -15,7 +26,57 @@ body {
   line-height: 1.14;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* container */
+
+.container {
+  width: 1630px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Header WebSite */
+
+.top-container {
+  display: flex;
+  align-items: center;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.top-nav {
+  margin-left: 93px;
+}
+
+.top-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.top-item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.nav-contacts {
+  margin-left: auto;
+}
 
 .top-logo {
   color: var(--logo-text-color);
@@ -34,6 +95,10 @@ body {
 }
 
 .top-link {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -47,6 +112,10 @@ body {
   line-height: 1.14;
 }
 
+.top-contacts + .top-contacts {
+  margin-left: 50px;
+}
+
 .top-link:hover,
 .top-contacts:hover,
 .top-link:focus,
@@ -58,6 +127,7 @@ body {
 
 .bigboard {
   background-color: var(--primary-bgd-color);
+  text-align: center;
 }
 
 .bigboard-name {
@@ -65,7 +135,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
 }
 
 .bigboard-button {
