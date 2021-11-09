@@ -301,6 +301,10 @@ p {
   margin-right: auto;
 }
 
+.border {
+  border-bottom: 2px solid #ececec;
+}
+
 .navigation {
   display: flex;
   /* ЦЕНТРИРОВАНИЕ???????? */
