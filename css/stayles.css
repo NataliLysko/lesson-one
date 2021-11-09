@@ -37,10 +37,15 @@ h4 {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 /* container */
@@ -240,6 +245,11 @@ a {
 /* Footer */
 
 .under {
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--primary-bgd-color);
 }
 
@@ -262,8 +272,16 @@ a {
 }
 
 .under-address {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
   color: var(--primary-white-color);
   line-height: 1.7;
+}
+
+.margin:not(:first-child) {
+  margin-top: 10px;
 }
 
 .under-contacts {
@@ -275,12 +293,35 @@ a {
 
 /* Portfolio */
 
+.portfolio-conteiner {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation {
+  display: flex;
+  /* ЦЕНТРИРОВАНИЕ???????? */
+}
+
+.navigation-li:not(:first-child) {
+  margin-left: 8px;
+}
+
 .navigation-button {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+
   cursor: pointer;
 }
 
@@ -288,6 +329,26 @@ a {
 .navigation-button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-list {
+  width: 380px;
+
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-list:nth-child(3n + 1) {
+  margin-left: 0px;
+}
+
+.portfolio-list:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
 
 .portfolio-site {
