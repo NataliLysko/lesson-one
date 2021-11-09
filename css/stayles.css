@@ -307,7 +307,7 @@ p {
 
 .navigation {
   display: flex;
-  /* ЦЕНТРИРОВАНИЕ???????? */
+  justify-content: center;
 }
 
 .navigation-li:not(:first-child) {
