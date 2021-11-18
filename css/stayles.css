@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-/* утилиты */
+/* общее оформление страницы */
 
 body {
   margin: 0;
@@ -133,6 +133,9 @@ p {
 .bigboard {
   background-color: var(--primary-bgd-color);
   text-align: center;
+  min-height: 600px;
+  margin-bottom: 94px;
+  padding-top: 200px;
 }
 
 .bigboard-name {
@@ -140,6 +143,7 @@ p {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  margin-bottom: 30px;
 }
 
 .bigboard-button {
@@ -149,6 +153,9 @@ p {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
+  min-width: 200px;
+  min-height: 50px;
+  border-radius: 4px;
 }
 
 /* What are we doing */
@@ -156,6 +163,7 @@ p {
 .plus {
   padding-left: 215px;
   padding-right: 215px;
+  margin-bottom: 94px;
 }
 
 .plus-soft-skills {
@@ -183,12 +191,14 @@ p {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .work-list {
   display: flex;
   padding-left: 215px;
   padding-right: 215px;
+  margin-bottom: 94px;
 }
 
 .work-list-li:not(:first-child) {
@@ -207,12 +217,14 @@ p {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
   padding-left: 215px;
   padding-right: 215px;
+  margin-bottom: 94px;
 }
 
 .team-list-li {
@@ -296,6 +308,8 @@ p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .border {
@@ -305,6 +319,8 @@ p {
 .navigation {
   display: flex;
   justify-content: center;
+
+  margin-bottom: 34px;
 }
 
 .navigation-li:not(:first-child) {
